@@ -17,10 +17,28 @@ orange:#D05D11 */
 
 
 h1 {
-  text-align: center;
   font-size: 1.5vw;
   font-family: 'IBM Plex Mono', monospace;
   color:#F5F5F5 ;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: 'IBM Plex Mono', monospace;
+  color:#23262F ;
+}
+
+p {
+  text-align: center;
+  font-size: 1vw;
+  padding-top: 2vh;
+  font-family: 'IBM Plex Mono', monospace;
+  color:#23262F ;
+}
+
+#about-title {
+  padding-top: 32.5vh;
 }
 
 
