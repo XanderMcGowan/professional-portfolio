@@ -1,0 +1,43 @@
+
+/* font-family: 'IBM Plex Mono', monospace; */
+
+/* black:#23262F 
+White: #F5F5F5
+orange:#D05D11 */
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  background-color:#23262F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: 'IBM Plex Mono', monospace;
+  color:#F5F5F5 ;
+}
+
+
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color:#F5F5F5;
+}
+
+.projects{
+  height: 100vh;
+  width: 100%;
+  background-color:#23262F;
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-color:#F5F5F5;
+}
