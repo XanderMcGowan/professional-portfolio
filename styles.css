@@ -17,6 +17,7 @@ orange:#D05D11 */
 
 
 h1 {
+  text-align: center;
   font-size: 1.5vw;
   font-family: 'IBM Plex Mono', monospace;
   color:#F5F5F5 ;
@@ -27,6 +28,14 @@ h2 {
   font-size: 1.5vw;
   font-family: 'IBM Plex Mono', monospace;
   color:#23262F ;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1vw;
+  padding-top: 2vh;
+  font-family: 'IBM Plex Mono', monospace;
+  color:#F5F5F5 ;
 }
 
 p {
@@ -41,6 +50,15 @@ p {
   padding-top: 32.5vh;
 }
 
+#project-title {
+  padding-top: 32.5vh;
+}
+
+#contact-title {
+  padding-top: 32.5vh;
+}
+
+
 
 .about {
   height: 100vh;
@@ -54,8 +72,37 @@ p {
   background-color:#23262F;
 }
 
+#a-simple-calculator:hover {
+  color: #D05D11;
+}
+
 .contact {
   height: 100vh;
   width: 100%;
   background-color:#F5F5F5;
 }
+
+a:link { 
+  text-decoration: none;
+  color: #23262F;
+}
+
+
+a:visited { 
+  text-decoration: none;
+  color: #23262F;
+}
+
+
+a:hover { 
+  text-decoration: none;
+  color: #D05D11;
+}
+
+
+a:active { 
+  text-decoration: none;
+  color: #D05D11;
+}
+
+
