@@ -88,6 +88,19 @@ p {
   color: #D05D11;
 }
 
+#hangman:hover {
+  color: #D05D11;
+}
+
+#ramp-numbers:hover {
+  color: #D05D11;
+}
+
+#word-count:hover {
+  color: #D05D11;
+}
+
+
 .contact {
   height: 100vh;
   width: 100%;
