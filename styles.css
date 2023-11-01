@@ -80,6 +80,10 @@ p {
   background-color:#23262F;
 }
 
+#my-todo-list:hover {
+  color: #D05D11;
+}
+
 #a-simple-calculator:hover {
   color: #D05D11;
 }
