@@ -1,72 +1,337 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="./scripts.js" defer></script>
-    <title>Xander McGowan</title>
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="title">
-        <h1>xander mcgowan</h1>
-      </div>
-      <p id="arrow">
-        |
-        <br>
-        V
-      </p>
+
+<head>
+    <meta charset="utf-8">
+    <title>Xander McGowan Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-info">Xander</span>McGowan</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-info d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h1 class="display-3 text-uppercase text-info mb-2" style="-webkit-text-stroke: 2px #ffffff;">Xander McGowan</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, UI/UX Design</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="about">
-      <h2 id="about-title">about</h2>
-      <p>i am a problem solver</p>
-      <p>i am a quick learner</p>
-      <p>i am a minimalist</p>
-      <p>i am a designer</p>
-      <p>i am an artist</p>
-      <p>i am xander</p>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-info">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Full Stack Web Developer</h3>
+                    <p>
+                        I seamlessly transitioned from a performing artist to a web developer, showcasing a unique eye for detail and excellence in problem-solving.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelor of Science</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">(469) 537-0156</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">xander.mcgowan@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Location: <span class="text-secondary">DFW Metroplex, Texas</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+            </div>
+        </div>
     </div>
-    <div class="projects">
-      <h1 id="project-title">projects</h1>>
-      <a href="https://xandermcgowan.github.io/todo-capstone/" target="_blank">
-        <h3 id="my-todo-list">my-todo-list -full-stack-crud-app</h3>
-      </a>
-      <a href="https://xandermcgowan.github.io/a-simple-calculator/" target="_blank">
-      <h3 id="a-simple-calculator">a-simple-calculator</h3>
-    </a>
-    <a href="https://xandermcgowan.github.io/RockPaperScissorsAI/" target="_blank">
-      <h3 id="rock-paper-scissors-vs-computer">rock-paper-scissors-vs-computer</h3>
-    </a>
-    <a href="https://xandermcgowan.github.io/Hangman/" target="_blank">
-      <h3 id="hangman">hangman</h3>
-    </a>
-    <a href="https://xandermcgowan.github.io/RampNumbers/" target="_blank">
-      <h3 id="ramp-numbers">ramp-numbers</h3>
-    </a>
-    <a href="https://xandermcgowan.github.io/WordCount/" target="_blank">
-      <h3 id="word-count">word-count</h3>
-    </a>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-info">Education & Experience</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-info pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelor of Science in Sport and Health Sciences</h5>
+                            <p class="mb-2"><strong>American Public University</strong> | <small>GPA: 3.6 Completed</small></p>
+                            <p>My Bachelor of Science has equipped me with the prowess to adeptly solve problems by skillfully applying the scientific method.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Technical Certificate in Full Stack Web Development</h5>
+                            <p class="mb-2"><strong>Austin Coding Academy</strong> | <small>Jan 2023 - Nov 2023 Completed</small></p>
+                            <p>Developed proficiency in coding languages HTML, CSS, and Javascript, frameworks inlcuding Node.js, Express.js and React.js, while learning about database queries using MySql.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Experience</h3>
+                    <div class="border-left border-info pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer/Developer</h5>
+                            <p class="mb-2"><strong>Freelance</strong> | <small>2020 - Present</small></p>
+                            <p>Developed and maintained various websites for small business, artists, and blogs using HTML, CSS, Javascript and CMS platforms such as Wordpress and Wix.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Full Stack Web Developer</h5>
+                            <p class="mb-2"><strong>Austin Coding Academy</strong> | <small>Nov 2023</small></p>
+                            <p>Created a "To-do" list web application for my graduating project that included a frontend developed in React, authtification using JWT, and database queries using MySql. </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Mobile App Developer</h5>
+                            <p class="mb-2"><strong>Generational Warriors</strong> | <small>Dec 2023 - Present</small></p>
+                            <p>Currently developing a collection of kid's game using React Native for both Andriod and IOS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="contact">
-      <h2 id="contact-title">contact me</h2>
-      <p>email: xander.mcgowan@gmail.com</p>
-      <p>phone: (469) 537-0156</p>
-      <p>github: 
-        <a href="https://github.com/XanderMcGowan" target="_blank">https://github.com/XanderMcGowan</a>
-      </p>
-      <p> linkedin: 
-        <a href="https://www.linkedin.com/in/xander-mcgowan-63bba1264/" target="_blank">https://www.linkedin.com/in/xander-mcgowan-63bba1264/</a>
-      </p>
-      <p></p>
-      <p></p>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-info">My Skills</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div>
+                    <div class="skill mb-4">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h5 class="font-weight-bold">Frontend:</h5>
+                            <h5 class="font-weight-normal">HTML | CSS | Javascript | Typescript | React </h5>
+                            <h5 class="font-weight-bold">Backend:</h5>
+                            <h5 class="font-weight-normal"> REST API's | SQL | Express.js | Node.js | AWS </h5>
+                            <h5 class="font-weight-bold">Mobile:</h5>
+                            <h5 class="font-weight-normal">React Native</h5>
+                            <h5 class="font-weight-bold">Other:</h5>
+                            <h5 class="font-weight-normal"> UI/UX | AJAX | NPM | React Redux | Git | Powershell | VS Code | Wordpress</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-info">My Services</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-5 col-md-6 text-center ">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-info text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Elevate your digital presence with my web design service, where innovation meets aesthetics to craft captivating and user-centric online experiences.</p>
+                </div>
+                <div class="col-lg-5 col-md-6 text-center">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-info text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Crafting responsive websites with a keen focus on user experience, my service seamlessly blends design and functionality to elevate your online presence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3 mb-2" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-info">My Portfolio</h1>
+            </div>
+            <div class="row portfolio-container">
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="https://www.daisymommy.com/" target="blank" class="text-decoration-none text-center">
+                                <i class="text-white" style="font-size: 24px;">Daisy Mommy Blog</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="https://xandermcgowan.github.io/todo-capstone/" target="blank" class="text-decoration-none text-center">
+                                <i class="text-white" style="font-size: 24px;">To-do Full Stack CRUD App</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="https://xandermcgowan.github.io/a-simple-calculator/" target="blank" class="text-decoration-none text-center" >
+                                <i class="text-white" style="font-size: 24px;">Calculator App</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item forth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="https://xandermcgowan.github.io/WordCount/" target="blank" class="text-decoration-none text-center">
+                                <i class="text-white" style="font-size: 24px;">Word Count App</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-info">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-info mb-4"></i>
+                            <h4 class="font-weight-light mb-4">"Xander was instrumental in developing my business by being responsive to my vision with his artistry and technical know-how."</h4>
+                            <!-- <img class="img-fluid rounded-circle mx-auto mb-3" src="" style="width: 80px; height: 80px;"> -->
+                            <h5 class="font-weight-bold m-0">Jeanne</h5>
+                            <span>Owner of Dansuer Design</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-info mb-4"></i>
+                            <h4 class="font-weight-light mb-4">"Xander's exceptional professionalism and outstanding technical abilities as a web developer elevated my blog, making him an invaluable asset to our team."</h4>
+                            <!-- <img class="img-fluid rounded-circle mx-auto mb-3" src="" style="width: 80px; height: 80px;"> -->
+                            <h5 class="font-weight-bold m-0">Alicia Amatriain</h5>
+                            <span>Owner of the Daisy Mommy Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-info text-white mt-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/XanderMcGowan" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/xander-mcgowan-63bba1264/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="m-0"> <a class="text-white font-weight-bold" href="#">www.xandermcgowan.com</a>. 
+                <br>
+                All Rights Reserved. 
+                <br>
+                Designed by Xander McGowan 
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
